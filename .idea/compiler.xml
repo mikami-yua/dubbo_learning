@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="002-link-consumer" />
         <module name="001-link-userservice-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="001-link-userservice-provider" target="1.5" />
+      <module name="001-link-userservice-provider" target="1.8" />
+      <module name="002-link-consumer" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
